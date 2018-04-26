@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    
+        FirebaseApp.configure()
+        
+//        // get your storyboard
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        
+//        // instantiate your desired ViewController
+//        let rootController = storyboard.instantiateViewController(withIdentifier: "ViewController")
+//        
+//        // Because self.window is an optional you should check it's value first and assign your rootViewController
+//        if let window = self.window {
+//            window.rootViewController = rootController
+//        }
+        
         return true
     }
 
