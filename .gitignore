@@ -45,9 +45,15 @@ buck-out/
 */fastlane/screenshots
 
 # Cocoapods
-#*Podfile
+#Podfile
 #Podfile.lock
 Manifest.lock
 Pods/
 Pods/*
 ./Pods
+
+#App assets
+WhatAmIEating/Assets.xcassets/*
+
+#Firebase config
+GoogleService-Info.plist
