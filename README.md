@@ -6,6 +6,6 @@ Its goal is to support people looking for losing weight and/or keeping in shape 
 
 The app was developd in Swift 4 and makes use of Firebase for authentication and storage.
 
-# Link for download at the Apple Store
+# Link for downloading at the Apple Store
 
 https://itunes.apple.com/dk/app/what-am-i-eating/id1375335352?mt=8
